@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Droga Nowoczesnego Wojownika – Wiktor Karpowicz</title>
-<meta name="description" content="Blog i materiały Wiktora Karpowicza. Filozofia siły, honoru i świadomego życia.">
+<meta name="description" content="Blog i materiały Wiktora Karpowicza. DNW - czyli Droga nowoczesnego wojownika">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Barlow:wght@300;400;500&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +15,6 @@
   <button class="lang-btn active" onclick="setLang('pl')" data-lang="pl">PL</button>
   <button class="lang-btn" onclick="setLang('de')" data-lang="de">DE</button>
   <button class="lang-btn" onclick="setLang('en')" data-lang="en">EN</button>
-  <a class="admin-link" href="admin/index.html" title="Panel edycji">⚙</a>
 </div>
 
 <!-- NAV -->
@@ -43,8 +42,9 @@
   <div class="hero-content">
     <div class="hero-tag" data-i18n="hero_tag">Wiktor Karpowicz</div>
     <h1 class="hero-title" data-i18n-html="hero_title">Droga<br><em>Nowoczesnego</em><br>Wojownika</h1>
-    <p class="hero-sub" data-i18n="hero_sub">Siła · Umysł · Honor</p>
-    <p class="hero-desc" data-i18n="hero_desc">Nie jesteś gotowy — jeszcze. Ale każdy krok na tej drodze zmienia cię w kogoś, kto jest.</p>
+    <p class="hero-sub" data-i18n="hero_sub">· ZA WSZELKĄ CENĘ PODĄŻAM ŚCIEŻKĄ SERCA ·</p>
+    <p class="hero-desc" data-i18n="hero_desc">Projekt Modern Warrior, czyli droga nowoczesnego wojownika, w moim rozumieniu.
+Duchowość, samorozwój, dekondycjonowanie, przełamywanie powielanych schematów, uzależnień i konfrontacja z mrokiem.</p>
     <div class="hero-btns">
       <a class="btn btn-red" href="#blog" data-i18n="hero_cta1">Czytaj blog</a>
       <a class="btn btn-outline" href="#materialy" data-i18n="hero_cta2">Materiały</a>
@@ -72,8 +72,11 @@
 
 <!-- QUOTE -->
 <div class="quote-band">
-  <blockquote data-i18n="quote_text">„Droga wojownika nie kończy się na arenie — zaczyna się w zwierciadle."</blockquote>
-  <cite data-i18n="quote_author">— Wiktor Karpowicz</cite>
+  <blockquote data-i18n="quote_text">„Już dawno przestałem biec,
+za tym co materialne jest,
+upadaliśmy, wstawaliśmy,
+zamiast łez zaciśnięta pięść."</blockquote>
+  <cite data-i18n="quote_author">— Wiktor Karpowicz aka. Victor Rex</cite>
 </div>
 
 <!-- MATERIAŁY -->
@@ -115,13 +118,13 @@
 
     <!-- FORMULARZ — Formspree -->
     <!-- INSTRUKCJA: zamień YOUR_FORM_ID na ID z formspree.io -->
-    <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+    <form id="contact-form" action="https://formspree.io/f/mojypzlg" method="POST" novalidate>
       <input type="hidden" name="_language" value="pl">
       <input type="hidden" name="_subject" data-i18n-value="form_subject">
 
       <div class="form-row">
         <div class="form-group">
-          <label data-i18n="form_name">Imię i nazwisko</label>
+          <label data-i18n="form_name">Imię</label>
           <input type="text" name="name" required autocomplete="name" data-i18n-placeholder="form_name_ph">
         </div>
         <div class="form-group">
@@ -134,8 +137,8 @@
         <label data-i18n="form_topic">Temat</label>
         <select name="topic">
           <option value="" data-i18n="form_topic_choose">Wybierz temat</option>
-          <option value="coaching" data-i18n="form_topic_coaching">Coaching indywidualny</option>
-          <option value="warsztaty" data-i18n="form_topic_workshop">Warsztaty</option>
+          <option value="coaching" data-i18n="form_topic_coaching">Feedback</option>
+          <option value="warsztaty" data-i18n="form_topic_workshop">KILLUMINATI</option>
           <option value="ksiazka" data-i18n="form_topic_book">Książka / materiały</option>
           <option value="inne" data-i18n="form_topic_other">Inne</option>
         </select>
@@ -163,8 +166,7 @@
     <div class="footer-logo"><span>DNW</span> · Wiktor Karpowicz</div>
     <p class="footer-copy" data-i18n="footer_copy">© 2026 Droga Nowoczesnego Wojownika. Wszelkie prawa zastrzeżone.</p>
     <nav class="footer-nav">
-      <a href="https://instagram.com">Instagram</a>
-      <a href="https://youtube.com">YouTube</a>
+      <a href="https://youtube.com/@93modernwarrior">YouTube</a>
       <a href="#kontakt" data-i18n="nav_contact">Kontakt</a>
     </nav>
   </div>
